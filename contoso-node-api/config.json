@@ -1,10 +1,10 @@
 {
-    "mongodbConnection":"<COSMOS_DB_OR_MONGODB_CONNECTION_STRING>",
-    "dbName": "<DATABASE_NAME>",
-    "connectionString": "<AZURE_COMMUNICATION_SERVICES_CONNECTION_STRING>",
-    "jwtPrivateKey": "<JWT_PRIVATE_KEY_FOR_AUTHENTICATION>",
-    "endpoint": "<AZURE_COMMUNICATION_SERVICES_ENDPOINT>",
-    "smsLogicAppEndpoint": "<AZURE_COMMUNICATION_SERVICES_SMS_LOGIC_APP_HTTP_TRIGGER_ENDPOINT>",
-    "qnaMakerEndpoint": "<QNA_MAKER_ENDPOINT_URL>",
-    "qnaMakerEndpointKey": "<QNA_MAKER_ENDPOINT_KEY>"
+    "mongodbConnection":"mongodb://contosomed-db:Ecbtw4vdNyqWg2T9EeOy7KE7BD02q87Q6HSXxgXVnQHjZ3wQrbLB1hQuHr17ONP099jPfE8pTgjbMnSAxc95sw==@contosomed-db.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@contosomed-db@",
+    "dbName": "contosomed-db",
+    "connectionString": "endpoint=https://contosomed-acs.communication.azure.com/;accesskey=pUuPgGnGqZCaWTljF0uJySqeFRYCYd0vVvoPkT2szEvKP729cWVUn8LC/UWriny+tB2EGKTN57aHEDMisG8n0w==",
+    "jwtPrivateKey": "pUuPgGnGqZCaWTljF0uJySqeFRYCYd0vVvoPkT2szEvKP729cWVUn8LC/UWriny+tB2EGKTN57aHEDMisG8n0w==",
+    "endpoint": "https://contosomed-acs.communication.azure.com/",
+    "smsLogicAppEndpoint": "https://prod-01.westus2.logic.azure.com:443/workflows/cc8bca3df52049128123e85a0ca93d41/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=FvQH6rcbAB1_U2oLfhq3K6ihD3F13Aae3tOMtVK6bCM",
+    "qnaMakerEndpoint": "https://contosomed-qna.cognitiveservices.azure.com",
+    "qnaMakerEndpointKey": "c905c0616614452786df8de3e3353a81"
 }
